@@ -44,7 +44,28 @@ document.addEventListener("DOMContentLoaded", () => {
         "🎮 Un minijuego educativo para aprender Web3.",
         "🛠️ Un generador de portafolios estáticos con Next.js.",
         "🔗 Una red social descentralizada con Solidity.",
+        "🧾 Una app de facturación para pequeños negocios con generación de PDFs y reportes visuales.",
+  "🌱 Una app de monitoreo de cultivos con IoT y visualización de datos en tiempo real.",
+  "🎓 Una plataforma de microcursos con creación colaborativa de lecciones.",
+  "💬 Un asistente virtual básico con IA y respuestas contextuales usando OpenAI.",
+  "🛒 Una tienda web con carrito persistente, filtros y simulación de pagos.",
+  "🧠 Un quiz inteligente para practicar entrevistas técnicas con retroalimentación adaptativa.",
+  "🔐 Un gestor de contraseñas local en Java con cifrado AES.",
+  "📂 Un buscador de archivos y notas etiquetadas con almacenamiento local.",
+  "🎙️ Un blog con reconocimiento de voz para redactar artículos por dictado.",
+  "📌 Una agenda personal con tareas, recordatorios y sincronización con Google Calendar.",
+  "💸 Un simulador de criptomonedas con datos en tiempo real desde CoinGecko API.",
+  "⚖️ Una app educativa sobre blockchain y leyes, con casos interactivos.",
+  "🧭 Un mapa interactivo de espacios tech, coworkings y eventos en tu ciudad.",
+  "🔄 Un conversor de unidades inteligente con historial y favoritos.",
+  "🖼️ Una galería NFT simulada con contratos inteligentes básicos en Solidity.",
+  "🤖 Un bot de Telegram con IA para resolver dudas frecuentes de estudiantes.",
+  "🌐 Un traductor web con almacenamiento offline y sugerencias con IA.",
+  "📘 Un CV interactivo que cambia de diseño según el tipo de reclutador (modo presentación).",
+  "🪪 Un verificador de diplomas con código QR y registro en blockchain.",
+  "💡 Una app para capturar ideas rápidas por voz/texto y sugerencias con IA.",
         "📊 Un dashboard que analiza sentimientos con IA (en desarrollo)."
+        
       ];
       const randomIdea = ideas[Math.floor(Math.random() * ideas.length)];
       ideaTexto.textContent = randomIdea;
