@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#acerca">Acerca de mí</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- Botón de modo oscuro -->
+  <button id="darkModeToggle" aria-label="Cambiar modo oscuro">
+  <img src="assets/icons/iconodark.jpg" alt="Modo oscuro">
+</button>
+
+
+
+
+  <header class="header fade-in">
+  <div class="foto-perfil fade-in">
+    <img src="img/perfil.jpg" alt="Foto de Cristian A. Bedoya" />
+    
+  </div>
+  <h1 class="nombre">Cristian A. Bedoya</h1>
+
+  <p class="titulo">Desarrollador de software - estudiante de ing. de sistemas 8vo semestre</p>
+  <a href="assets/CV-Cristian-Bedoya.pdf" download class="boton-descarga" target="_blank" rel="noopener noreferrer">
+  Descargar CV 📄
+</a>
+</header>
+
+  <main class="contenido">
+
+    <section id="acerca-de" class="acerca-de fade-in ">
+
+      <h2>Acerca de mí</h2>
+      <p>Ingeniero de sistemas en formación, apasionado por el código y el desarrollo web moderno. Transformo ideas en experiencias digitales impactantes con enfoque en la innovación y el aprendizaje continuo.</p>
+      <section id="habilidades" class="habilidades fade-in">
+  <h2>Habilidades Técnicas</h2>
+  <div class="grid-habilidades">
+    <div class="habilidad">HTML5</div>
+    <div class="habilidad">CSS3</div>
+    <div class="habilidad">JavaScript</div>
+    <div class="habilidad">Git y GitHub</div>
+    <div class="habilidad">MySQL</div>
+    <div class="habilidad">C# / Java</div>
+  </div>
+    </section>
+
+    <section id="proyectos" class="proyectos fade-in ">
+  <h2>Proyectos Destacados</h2>
+  <div class="galeria-proyectos">
+    <div class="proyecto">
+      <img src="img/proyecto1.jpg" alt="Proyecto 1">
+      <h3>Nombre del Proyecto 1</h3>
+      <p>Descripción corta del proyecto.</p>
+<div class="proyecto-enlaces">
+  <a href="#" class="btn-vermas">🔍 Ver más</a>
+  <a href="https://github.com/tuusuario/repositorio-proyecto1" target="_blank" class="btn-github">
+    <i class="fab fa-github"></i> Código
+  </a>
+</div>
+
+    <div class="proyecto">
+      <img src="img/proyecto2.jpg" alt="Proyecto 2">
+      <h3>Nombre del Proyecto 2</h3>
+      <p>Descripción corta del proyecto.</p>
+<div class="proyecto-enlaces">
+  <a href="#" class="btn-vermas">🔍 Ver más</a>
+  <a href="https://github.com/tuusuario/repositorio-proyecto1" target="_blank" class="btn-github">
+    <i class="fab fa-github"></i> Código
+  </a>
+</div>
+
+    <div class="proyecto">
+      <img src="img/proyecto3.jpg" alt="Proyecto 2">
+      <h3>Nombre del Proyecto 3</h3>
+      <p>Descripción corta del proyecto.</p>
+<div class="proyecto-enlaces">
+  <a href="#" class="btn-vermas">🔍 Ver más</a>
+  <a href="https://github.com/tuusuario/repositorio-proyecto1" target="_blank" class="btn-github">
+    <i class="fab fa-github"></i> Código
+  </a>
+</div>
+
+    <div class="proyecto">
+      <img src="img/proyecto4.jpg" alt="Proyecto 2">
+      <h3>Nombre del Proyecto 4</h3>
+      <p>Descripción corta del proyecto.</p>
+<div class="proyecto-enlaces">
+  <a href="#" class="btn-vermas">🔍 Ver más</a>
+  <a href="https://github.com/tuusuario/repositorio-proyecto1" target="_blank" class="btn-github">
+    <i class="fab fa-github"></i> Código
+  </a>
+</div>
+    
+  </div>
+</section>
+
+
+
+<section id="ia-demo" class="ia-demo fade-in">
+  <h2>🤖 IA Creativa: Generador de ideas</h2>
+  <p>Explora ideas de proyectos que integran tecnologías modernas como blockchain, Next.js o Web3.</p>
+  
+  <button id="generarIdea" class="boton-ia">💡 Generar idea</button>
+  <p id="ideaGenerada" class="idea-generada"></p>
+</section>
+
+
+
+<section class="tecnologias-recientes fade-in">
+  <h2>Tecnologías en estudio</h2>
+  <div class="grid-tecnologias">
+
+    <button class="tech-btn" data-target="nextjs">
+      <svg viewBox="0 0 24 24" class="tech-icon"><path fill="currentColor" d="M12 0L1.605 6v12L12 24l10.395-6V6L12 0z"/></svg>
+      <span>Next.js</span>
+    </button>
+
+    <button class="tech-btn" data-target="web3">
+      <svg viewBox="0 0 24 24" class="tech-icon"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12s4.48 10 10 10 10-4.58 10-10S17.52 2 12 2z"/></svg>
+      <span>Web3</span>
+    </button>
+
+    <button class="tech-btn" data-target="solidity">
+      <svg viewBox="0 0 24 24" class="tech-icon"><path fill="currentColor" d="M4 4h16v2H4zm0 5h16v2H4zm0 5h10v2H4z"/></svg>
+      <span>Solidity</span>
+    </button>
+
+    <button class="tech-btn" data-target="trazabilidad">
+      <svg viewBox="0 0 24 24" class="tech-icon"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Trazabilidad</span>
+    </button>
+
+  </div>
+</section>
+
+<section id="explicaciones-tecnologias" class="explicaciones">
+  <div class="explicacion" id="nextjs">
+    <h3>Next.js</h3>
+    <p>Estoy aprendiendo Next.js para construir aplicaciones web modernas con SSR, rutas optimizadas y despliegue rápido.</p>
+  </div>
+  <div class="explicacion" id="web3">
+    <h3>Web3 & Ethers.js</h3>
+    <p>Estudio Web3 para conectar apps a blockchain usando Ethers.js. He hecho pruebas con Metamask y contratos.</p>
+  </div>
+  <div class="explicacion" id="solidity">
+    <h3>Solidity</h3>
+    <p>Aprendo Solidity para programar contratos inteligentes en Ethereum y los pruebo en Remix IDE.</p>
+  </div>
+  <div class="explicacion" id="trazabilidad">
+    <h3>Blockchain Trazabilidad</h3>
+    <p>Trabajo en un prototipo que usa blockchain para registrar eventos y trazabilidad de productos.</p>
+  </div>
+</section>
+
+<section id="blog" class="blog-tecnico fade-in">
+  <h2>📝 Blog Técnico</h2>
+  <p>Comparto mis experiencias aprendiendo sobre desarrollo web, blockchain y tecnologías emergentes.</p>
+  
+  <div class="articulos-blog">
+    
+    <div class="articulo">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icono-blog" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M12.146.146a.5.5 0 0 1 .708.708L12.207 1.5 14.5 3.793l.647-.647a.5.5 0 1 1 .707.707l-13 13a.5.5 0 0 1-.707-.707L2.793 13.5l2.293-2.293-1.5-1.5L1.5 12.207l-.647-.647a.5.5 0 1 1 .707-.707l13-13zM11 3.5 4.5 10l1 1L12 4.5l-1-1z"/>
+  </svg>
+  <div class="contenido-articulo">
+    <h3>Artículo: "Cómo entendí Blockchain desde cero"</h3>
+    <p class="resumen-articulo">
+      Cuando escuché “blockchain” por primera vez, pensaba que era solo para criptomonedas. En este artículo cuento cómo pasé de esa idea a comprender contratos inteligentes, trazabilidad y descentralización con ejemplos sencillos.
+    </p>
+    <a href="https://tublog.com/articulo-ejemplo" target="_blank" class="boton-leer">Leer artículo completo</a>
+  </div>
+</div>
+
+<div class="articulo">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icono-blog" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M12.146.146a.5.5 0 0 1 .708.708L12.207 1.5 14.5 3.793l.647-.647a.5.5 0 1 1 .707.707l-13 13a.5.5 0 0 1-.707-.707L2.793 13.5l2.293-2.293-1.5-1.5L1.5 12.207l-.647-.647a.5.5 0 1 1 .707-.707l13-13zM11 3.5 4.5 10l1 1L12 4.5l-1-1z"/>
+  </svg>
+  <div class="contenido-articulo">
+    <h3>Artículo: "Blockchain y la trazabilidad en la cadena de suministros"</h3>
+    <p class="resumen-articulo">
+      ¿De dónde viene realmente lo que consumimos? En este artículo explico cómo blockchain permite seguir el recorrido de un producto desde su origen hasta tus manos, con transparencia y seguridad que antes eran impensables.
+    </p>
+    <a href="https://tublog.com/articulo-trazabilidad" target="_blank" class="boton-leer">Leer artículo completo</a>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+<section id="nextjs" class="explicacion fade-in">
+  <h3>Next.js</h3>
+  <p>Estoy aprendiendo Next.js para construir aplicaciones web modernas con SSR, rutas optimizadas y despliegue rápido. Lo estudio mediante proyectos personales y documentación oficial.</p>
+</section>
+
+<section id="web3" class="explicacion fade-in ">
+  <h3>Web3 & Ethers.js</h3>
+  <p>Estudio Web3 para conectar aplicaciones a blockchain usando Ethers.js. He creado pruebas de conexión con Metamask y contratos básicos en testnets.</p>
+</section>
+
+<section id="solidity" class="explicacion fade-in ">
+  <h3>Solidity</h3>
+  <p>Aprendo Solidity para programar contratos inteligentes en Ethereum. He desarrollado contratos básicos y los he probado en Remix IDE con testnet.</p>
+</section>
+
+<section id="trazabilidad" class="explicacion fade-in">
+  <h3>Blockchain y Trazabilidad</h3>
+  <p>Investigo el uso de blockchain para trazabilidad en cadenas de suministro. Estoy trabajando en un prototipo que registre eventos en tiempo real usando contratos inteligentes.</p>
+</section>
+
+<section class="github-stats fade-in">
+  <h2>📊 Mi Actividad en GitHub</h2>
+  <img src="https://github-readme-stats.vercel.app/api?username=crisalex6464&show_icons=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=crisalex6464&layout=compact&theme=radical" alt="Top Languages">
+</section>
+
+<section class="tecnologias-portafolio fade-in">
+  <h2>🛠️ Tecnologías usadas en este portafolio</h2>
+  <div class="lista-tecnologias-portafolio">
+    <div class="tech-tag">HTML5</div>
+    <div class="tech-tag">CSS3</div>
+    <div class="tech-tag">JavaScript</div>
+    <div class="tech-tag">FontAwesome</div>
+    <div class="tech-tag">Git & GitHub</div>
+    <div class="tech-tag">VS Code</div>
+  </div>
+</section>
+
+
+<div class="codigo-portafolio">
+  <a href="https://github.com/tuusuario/nombre-repositorio-portafolio" target="_blank">
+    <i class="fab fa-github"></i> Ver código del portafolio en GitHub
+  </a>
+</div>
+
+
+<section id="contacto" class="contacto fade-in">
+  <h2>📬 !Contactame¡</h2>
+  <p>Estoy abierto a nuevas oportunidades profesionales. Si eres reclutador o parte de un equipo técnico, estaré encantado de conversar sobre cómo puedo aportar a tus proyectos o participar en un proceso de selección.</p>
+
+  <div class="botones-contacto">
+    <a href="mailto:cristianalexanderbedoyamarin8@gmail.com" class="boton-contacto" target="_blank">
+      <i class="fas fa-envelope"></i> Correo
+       <span class="contacto-info">cristianalexanderbedoyamarin8@gmail.com</span>
+    </a>
+    <a href="https://www.linkedin.com/in/cristian-alexander-bedoya-marin-ba1306277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="boton-contacto" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+       <span class="contacto-info">cristiana lexander bedoya marin</span>
+    </a>
+    <a href="https://wa.me/573171084060" class="boton-contacto" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+       <span class="contacto-info">317-108-4060</span>
+    </a>
+    <a href="https://github.com/tuusuario" class="boton-contacto" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+       <span class="contacto-info">cristian bedoya</span>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+  </main>
+  
+  
+
+  <script src="script/main.js"></script>
+
+  
+</script>
+<script>
+  document.querySelectorAll('.tech-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      
+      // Ocultar todas las explicaciones
+      document.querySelectorAll('.explicacion').forEach(div => {
+        div.style.display = 'none';
+      });
+
+      // Mostrar solo la explicación correspondiente
+      const targetDiv = document.getElementById(targetId);
+      if (targetDiv) {
+        targetDiv.style.display = 'block';
+        targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  });
+
+  // Ocultar todas las explicaciones por defecto
+  window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.explicacion').forEach(div => {
+      div.style.display = 'none';
+    });
+  });
+</script>
+
+</body>
+
+
+
+
+</html>
+
